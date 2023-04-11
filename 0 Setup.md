@@ -48,4 +48,4 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
   * Model version: Leave as `0301`
   * Deployment Name: Enter `gpt-35-turbo`
 
-Now, proceed to 1. Lab Outline
+Now, proceed to [1 Outline.md](1%20Outline.md)
