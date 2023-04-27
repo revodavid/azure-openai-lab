@@ -94,7 +94,7 @@ In the following section, we'll explore other aspects of completions.
 
 Clear the contents of the prompt box. Enter the prompt below, then click "Generate".
 
-    I climbed the apple tree and picked a 
+    I climbed the tree and picked a 
 
 (Note that we didn't specify a kind of tree this time.) Once again, your completion will appear in green. It might read "an apple", "a pear", or something else entirely. The completion is non-deterministic: The model is not guaranteed to generate the same completion for the same prompt every time. 
 
