@@ -12,7 +12,7 @@ You can learn more details about how OpenAI's models work at Microsoft Learn: [U
 
 ## Launch the Completions Playground
 
-In the left navigation of the Azure OpenAI Studio, click "Completions" under the "Playground" heading.
+In the left navigation of the Azure OpenAI Studio home page, click "Completions" under the "Playground" heading.
 
 In the drop-downs under "Completions playground" make sure the following options are selected:
 
@@ -122,7 +122,9 @@ Clear the contents of the prompt box. Enter the following text, then click Gener
 
 There has never been a poet (nor indeed any person, according a Web searchs) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any actual facts. Even the requested references, while convincing-looking, are not real.
 
+## Next Steps
 
+Now, proceed to [3 Tokens.md](3%20Tokens.md).
 
 
 

@@ -22,13 +22,19 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
   * Name: Enter `openai-lab-build`
   * Pricing Tier: Select `Standard S0`
 
-6. Click the link "[Review the Azure OpenAI code of conduct](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/code-of-conduct)" and read the code of conduct, then close the tab to return to the Azure Portal.
-
 7. Click Next. On the next page "Tags" also click Next. On the final tab "Create Azure OpenAI", click "Create".
 
 8. Deployment may take up to 2 minutes. Once deployment is complete, proceed to the next step.
 
-### Create OpenAI Deployments
+## While you're waiting for the deployment to complete...
+
+1. Review the "[Code of conduct for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/code-of-conduct)".
+
+2. TODO (data privacy FAQ)
+
+## Create OpenAI Deployments
+
+Once your deployment is complete:
 
 1. From the Azure Portal Home page, click the Resource you just created, `openai-lab-build`.
 
@@ -48,4 +54,4 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
   * Model version: Leave as `0301`
   * Deployment Name: Enter `gpt-35-turbo`
 
-Now, proceed to [1 Explore%20Models.md](1%20Explore%20Models.md) 
+Now, proceed to [1 Explore Models.md](1%20Explore%20Models.md) 
