@@ -14,7 +14,7 @@ text-davinci-003 | Translate Text
 
 Click **Generate**. `text-davinci-003` translates the given text into French and Spanish. Modify the prompt to some other examples of text and languages.
 
-Natural language models are trained on a subset of data from the internet, so they can learn languages other than English and translate between languages, too. English is the most-represented langauge on the Internet, so the model performs best in English. Languages that don't appear so as frequently online are less well-represented in the training data, and  the model performs worse in those languages.
+Natural language models are trained on a subset of data from the internet, so they can learn languages other than English and translate between languages, too. English is the most-represented langauge on the Internet, so the model performs best in English. Languages that don't appear as frequently online are less prevalent in the training data, and so the model performs worse in such languages.
 
 ## Information extraction
 
@@ -34,7 +34,11 @@ Click **Generate**. In this example, we provide freeform narrative about fictiti
 
 In this example, we "primed" the model with the desired output format: a header row, and a couple of examples. 
 
-Try extending the prompt by appending the following text `Please make a JSON array summarizing the fruits from Goocrux`. The model will now return a JSON array of the fruit and their attributes.
+Try extending the prompt by appending the following text:
+```
+ Please make a JSON array summarizing the fruits from Goocrux
+```
+The model will now return a JSON array of the fruit and their attributes.
 
 <!-- This prompt works without an example to guide it, but you may need to increase the token limit and remove any Stop Sequences in the right pane. -->
 
@@ -58,7 +62,7 @@ Try replacing Headline 2 with other text and regenerating the completion. Does i
     Microsoft up in after-hours trading
 ```
 ```
-    20nm process offers more better density and power value
+    20nm process offers more density and better power value
 ```
 
 ## Text summarization
