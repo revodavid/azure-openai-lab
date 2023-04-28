@@ -14,7 +14,7 @@ text-davinci-003 | Translate Text
 
 Click **Generate**. `text-davinci-003` translates the given text into French and Spanish. Modify the prompt to some other examples of text and languages.
 
-Natural language models are trained on data from the entire internet, so they can learn languages other than English and translate between languages, too. English is the most-represented langauge on the Internet, so the model performs best in English. Languages that don't appear so as frequently online are less well-represented in the training data, and  the model performs worse in those languages.
+Natural language models are trained on a subset of data from the internet, so they can learn languages other than English and translate between languages, too. English is the most-represented langauge on the Internet, so the model performs best in English. Languages that don't appear so as frequently online are less well-represented in the training data, and  the model performs worse in those languages.
 
 ## Information extraction
 

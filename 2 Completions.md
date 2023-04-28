@@ -89,6 +89,12 @@ In this case, the model is limited by training data, which is current only up to
 
 The model will generate an answer to math questions, but there's no guarantee it will be correct. (If it is correct, it's only because the question and answer are represented in the training data.)
 
+But you could ask the model to write Python code to calculate the square root of 98765, and it would probably do a good job. (Try it!).
+
+    Write Python code to calculate the square root of 98765
+
+Next, ask the model to solve a puzzle:
+
     Steven is my uncle. Steven has two children, Sam and Lindsay. Sam's sole aunt is called Julie. What is my mother's name?
 
 It's a simple puzzle, but the model cannot reason about the relationships between people and will not be able to solve it. (More advanced models like GPT-4 are more likely to get the answer right, but are still not guaranteed to do so.)
