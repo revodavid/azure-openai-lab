@@ -4,7 +4,7 @@ We've mentioned "tokens" a few times without stopping to explain what they are. 
 
 The OpenAI natural language models don't operate on words or characters as units of text, but on something in-between: tokens. A token may be a single character, or a fraction of a word, or an entire word. Many common words are represented by a single token, less common words are represented by multiple tokens.
 
-When you enter text in the prompt box or generate a completion, a counter appears below that counts the total number of tokens in the box. (Note: the counter takes a second or so to update if you're actively typing.)
+When you enter text in the prompt box or generate a completion, a counter appears below that counts the total number of tokens in the box. (Note: the counter takes a few seconds to update if you're actively typing.)
 
 How many tokens are in the following words?
 
