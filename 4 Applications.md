@@ -36,6 +36,8 @@ In this example, we "primed" the model with the desired output format: a header 
 
     Please make a JSON array summarizing the fruits from Goocrux
 
+This prompt works without an example to guide it, but you may need to increase the token limit and remove any Stop Sequences in the right pane.
+
 ## Classification
 
 | Deployment | Examples |
