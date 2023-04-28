@@ -1,8 +1,8 @@
 ## Setup
 
-### Create Azure OpenAI Service resource in Azure Portal
+### Create an Azure OpenAI Service resource in Azure Portal
 
-1. Open the Microsoft Azure Portal at https://portal.azure.com and sign in to your Azure Subscription. Make sure you are viewing the Home page of the Azure portal by clicking the hamburger menu in the top-left and selecting "Home".
+1. Open the Microsoft Azure Portal at https://portal.azure.com and sign into your Azure Subscription. Make sure you are viewing the Home page of the Azure portal by clicking the hamburger menu in the top-left and selecting "Home".
 
 2. Click "+ Create a Resource"
 
