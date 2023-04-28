@@ -4,7 +4,7 @@ Completed the workshop already? Need something else to do? Here are some other t
 
 ## Generate Images with Bing Create
 
-Note, a Microsoft account is required for this section
+> NOTE: A Microsoft account is required for this section
 
 1. Go to [Bing Create](https://www.bing.com/create) and sign in with your Microsoft account if prompted
 
@@ -16,7 +16,7 @@ Bing Create uses the Dall-E image generation model to generate an image from a p
 
 ## Have a conversation with Bing Chat
 
-> NOTE: In addition to a Microsoft account, you must have been granted access to Bing Chat. To join the waitlist, visit [Bing Chat](https://www.bing.com/new) and click "Join the waitlist"
+> NOTE: In addition to a Microsoft account, you must have been granted access to Bing Chat. To join the waitlist, visit [Bing Chat](https://www.bing.com/new) and click "Join the waitlist".
 
 Unlike the conversation-based models such as ChatGPT in Azure OpenAI Service, Bing Chat's responses are not limited by the underlying natural language model alone. Bing Chat uses a variety of techniques to provide "grounding" for its responses, including the results of live Web searches. This means that Bing Chat can use current information, not just information that was included in the model's training data, to inform its responses. 
 
@@ -26,7 +26,7 @@ Let's try some examples to see how this works in practice.
 
 ### Have an ongoing conversation
 
-Start with Bing in Balanced mode. Ask any question you like. Ask for followups-too?
+Start with Bing in Balanced mode. Ask any question you like. Ask for followups-too! You can also use the suggested continuation buttons to guide the conversation.
 
 ### Get information about recent events
 
@@ -45,11 +45,15 @@ How's today's weather in Seattle, WA
 ```
 What big news happened today?
 ```
-
 ## Generate an image in Creative mode
 
+As the name suggests, Creative mode is best for generating creative responses that won't necessarily be grounded in facts: poetry, jokes, and so on. You can also use Bing Chat in creative mode to generate images. Try something like this:
 
+```
+Draw a logo for an ice-cream shop located in Hawaii near the beach.
+```
 
+Try other prompts and see what creative responses you can get!
 
 
 
