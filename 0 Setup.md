@@ -32,9 +32,9 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
 
 1. Review the [Code of conduct for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/code-of-conduct).
 
-1. Review the information on [Data, privacy and security for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext).
+1. Review the information on [Data, privacy and security for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy).
 
-1. Review the [Azure OpenAI Service Frequently Asked Questions](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/faq).
+1. Browse the [Azure OpenAI Service Frequently Asked Questions](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/faq).
 
 ## Create model deployments
 
@@ -58,4 +58,6 @@ Once your Azure OpenAI deployment is complete:
   * Model version: Leave as `0301`
   * Deployment Name: Enter `gpt-35-turbo`
 
-Now, proceed to [1 Explore Models.md](1%20Explore%20Models.md) 
+## Next Steps
+
+You're all set! Proceed to [1 Explore Models.md](1%20Explore%20Models.md) to start the workshop proper.

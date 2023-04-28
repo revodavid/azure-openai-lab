@@ -17,7 +17,7 @@ In the left navigation of the Azure OpenAI Studio home page, click "Completions"
 In the drop-downs under "Completions playground" make sure the following options are selected:
 
 1. Deployments: `text-davinci-003`
-2. Examples: `Load an example` (do not change this option)
+2. Examples: `Load an example` (do not change this option yet)
 
 ## Basic Prompting
 
@@ -39,13 +39,18 @@ By default, the Completions Playground limits the length of completions to 100 t
 
 Now, try a few other prompts and observe the response. Here are some examples to try, but get creative with your own prompts and see what happens!
 
+```
     What is the capital of Australia?
-
+```
+```
     A recipe for banana bread, and an itemized shopping list of the ingredients.
-
+```
+```
     What were the 10 top movies of 2001? Respond in the form of a table listing the movie name, the box office earnings, and the studio.
-
+```
+```
     Write a Python function to calculate the nth prime number.
+```
 
 ## Generating novel content
 
@@ -96,7 +101,7 @@ Clear the contents of the prompt box. Enter the prompt below, then click "Genera
 
     I climbed the tree and picked a 
 
-(Note that we didn't specify a kind of tree this time.) Once again, your completion will appear in green. It might read "an apple", "a pear", or something else entirely. The completion is non-deterministic: The model is not guaranteed to generate the same completion for the same prompt every time. 
+(Note that we didn't specify a kind of tree this time.) Once again, your completion will appear in green. It might read "an apple", "a pear", or something else entirely. The completion is non-deterministic: the model is not guaranteed to generate the same completion for the same prompt every time. 
 
 Click the "Undo" button to delete the provided completion, and then click "Generate" again. What do you observe?
 

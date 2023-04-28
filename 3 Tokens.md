@@ -8,19 +8,23 @@ When you enter text in the prompt box or generate a completion, a counter appear
 
 How many tokens are in the following words?
 
+```
     "apple"
-
+```
+```
     "hamburger"
-
+```
+```
     "Skaarsgard"
+```
 
-As a common word, "apple" requires only one token. "hamburger" requires three: "ham", "bur" and "ger". Unless they are very common, proper names generally require multiple tokens. It's this token representation that allows AI models to generate words that are not in any dictionary, but without having to generate text on a letter-by-letter basis (which could easily result in gibberish).
+As a common word, "apple" requires only one token. The word "hamburger" requires three tokens: "ham", "bur" and "ger". Unless they are very common, proper names generally require multiple tokens. It's this token representation that allows AI models to generate words that are not in any dictionary, but without having to generate text on a letter-by-letter basis (which could easily result in gibberish).
 
-Tip: OpenAI provides a useful tool for visualizing the tokens in text phrases. Try it out the [OpenAI Tokenizer](https://platform.openai.com/tokenizer).
+**Tip**: OpenAI provides a useful tool for visualizing the tokens in text phrases. Try it out here: [OpenAI Tokenizer](https://platform.openai.com/tokenizer).
 
 The natural language models generate completions one token at a time, but the generated token is not deterministic. At each step, the model outputs a list of *all* possible tokens with associated weights. The API samples one token from this list, with heavily-weighted tokens more likely to be selected than the others. 
 
-![Diagram](https://bea.stollnitz.com/images/how-gpt-works/1-ntokens.png)
+![Diagram: N tokens in, one token out](https://bea.stollnitz.com/images/how-gpt-works/1-ntokens.png)
 
 Then it adds that token to the prompt and repeats the process until the "Max length (tokens)" limit is met for the completion, or until the model generates a special token called a "stop token", which prevents further tokens from being generated. (This [blog post](https://bea.stollnitz.com/blog/how-gpt-works/) by Beatriz Stollnitz explains the process in more detail.)
 
