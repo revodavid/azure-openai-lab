@@ -32,11 +32,11 @@ text-davinci-003 | Parse unstructured data
 
 Click **Generate**. In this example, we provide freeform narrative about fictitious fruits, and prompt the model to generate a table of all the fruits mentioned and their attributes. 
 
-In this example, we "primed" the model with the desired output format: a header row, and a couple of examples. Here's another version of the prompt to try:
+In this example, we "primed" the model with the desired output format: a header row, and a couple of examples. 
 
-    Please make a JSON array summarizing the fruits from Goocrux
+Try extending the prompt by appending the following text `Please make a JSON array summarizing the fruits from Goocrux`. The model will now return a JSON array of the fruit and their attributes.
 
-This prompt works without an example to guide it, but you may need to increase the token limit and remove any Stop Sequences in the right pane.
+<!-- This prompt works without an example to guide it, but you may need to increase the token limit and remove any Stop Sequences in the right pane. -->
 
 ## Classification
 
