@@ -81,24 +81,3 @@ In the third example, we extract summaries for specific sub-topics: key financia
 These examples are illustrative as one-off demonstrations, but their real power comes with automation. You can use the Azure OpenAI service to perform similar tasks either on-demand (say, as a customer request form is submitted) or in batch mode (say, to extract data points from a database of unstructured text responses). We'll explore the API later.
 
 For now, proceed to [5 Conversations.md](5%20Conversations.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 
-

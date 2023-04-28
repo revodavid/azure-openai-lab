@@ -1,6 +1,6 @@
 # Conversations
 
-If you've used consumer conversational AI services like OpenAI's ChatGPT service or [Bing Chat](https://bing.com/chat), you may wonder how the AI agent "remembers" context from earlier in the conversation. As we've seen, Generative AI models including ChatGPT (`gpt-35-turbo`) have no capability to learn, so how does information from the conversation persist?
+If you've used consumer conversational AI services like OpenAI's ChatGPT service or [Bing Chat](https://bing.com/chat), you may wonder how the AI agent "remembers" context from earlier in the conversation. As we've seen, Generative AI models including ChatGPT (`gpt-35-turbo`) cannot learn, so how does information from the conversation persist?
 
 The answer is: it's a trick! The AI model isn't reacting to your most recent prompt in isolation. The user interface for the chat service provides the model with the *entire* chat history at each turn, invisibly to you, the user. Also observe that if you exit the conversation and return later, the model has no memory of your previous interactions, and you will start again from scratch.
 
@@ -24,7 +24,7 @@ If you ever need to return to the default settings, select "Default" in the Assi
 
 In the "User Message" box in the right pane, enter the text below (substituting your own name):
 
-    How many neutrons in a hydrogen nucleus?
+    How many neutrons are in a hydrogen nucleus?
 
 Click **Send**. The AI agent will respond with something like:
 
@@ -48,7 +48,7 @@ In the Assistant Setup pane, select "Hiking recommendations chatbot" from the dr
 
 The text provided in the System Message is handled specially by the model, and is intended to have more influence on the model's responses than the User Message text or other context provided in the prompt. (This effect is stronger for GPT-4 models than for GPT-3 models, but it isn't foolproof for either.)
 
-In the User Message box, enter this text with personal details of your choice:
+In the User Message box, enter this text with the personal details of your choice:
 
     Hi, I'm <your name>. I'm looking for a hike near <my city>. I want to take my dog with me.
 
@@ -60,7 +60,7 @@ Try clearing the chat (click the "Clear Chat" button) and starting over with you
 
 In the Assistant Setup pane, select "IRS tax chatbot" from the dropdown. Note that in addition to the System message, there is now an example provided in the "Few-shot examples" section (click the arrow next to "Few-shot examples" to see it).
 
-Once again, the system message guides the model on its personality and responses. Importantly, it also guides the model on what *not* to do: "Do not answer questions that are not related to United States tax procedures"; "If you do not know the answer to a question, respond by saying, I do not know". Providing prompts like these for inintended actions is an effective way to prevent the model from generating responses that are off-topic or inappropriate.
+Once again, the system message guides the model on its personality and responses. Importantly, it also guides the model on what *not* to do: "Do not answer questions that are not related to United States tax procedures"; "If you do not know the answer to a question, respond by saying, I do not know". Providing prompts like these for unintended actions is an effective way to prevent the model from generating responses that are off-topic or inappropriate.
 
 The system message also includes factual information, for example: "For 2022, the CTC is worth $2,000 for each qualifying child." This is a technique you can use to provide the model with information that wasn't included in its training data. Since the system message is provided to the model with every conversation turn, the model may use this information in its responses.
 
@@ -74,39 +74,8 @@ Here are some prompts to try to observe the effects of the system prompt and the
 
     You're stupid!
 
-Also try asking follow-up questions to get the model to clarify or elaborate its responses.
+Also, try asking follow-up questions to get the model to clarify or elaborate on its responses.
 
 ## Next steps
 
 Proceed to [6 Prompt Engineering.md](6%20Prompt%20Engineering.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -16,7 +16,7 @@ You can find a more complete list at [aka.ms/oai/models](https://aka.ms/oai/mode
 | ChatGPT | `gpt-35-turbo` | Conversation |
 | GPT-4 | `gpt-4` | Conversation |
 
-In this workshop we will try out GPT-3.5 and ChatGPT. GPT-4 is currently in preview, and existing Azure OpenAI customers can apply by [filling out this form](https://aka.ms/oai/get-gpt4).
+In this workshop, we will try out GPT-3.5 and ChatGPT. GPT-4 is currently in preview, and existing Azure OpenAI customers can apply by [filling out this form](https://aka.ms/oai/get-gpt4).
 
 ## Finding your API key
 
@@ -42,14 +42,4 @@ Return to the Completions Playground in the Azure OpenAI Studio.
 * Python example (tricky to do in the shell because of package dependencies)
 * A more self-contained shell command, with options?
 
-
-
-
-
-
-
-
-
-
-
-
+Proceed to [8 Learnings and Resources.md](8%20Learnings%20and%20Resources.md).

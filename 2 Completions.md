@@ -1,6 +1,6 @@
 # Completions
 
-In this section, you will experiment with creating completions with OpenAI natural langage models. We will use the GPT-3.5 model `text-davinci-003` throughout this section.
+In this section, you will experiment with creating completions with OpenAI natural language models. We will use the GPT-3.5 model `text-davinci-003` throughout this section.
 
 ## What is a completion?
 
@@ -65,12 +65,12 @@ Here is another prompt to try with different Temperature values:
 
     What is a unique and long name for a cat?
 
-Make sure the Temperature parameter is re-set to 1 for before you continue.
+Make sure the Temperature parameter is reset to 1 before you continue.
 
 ## Less-useful prompts
 
 Natural language generative AI models have a number of limitations:
-* They are limited by their training data, which was frozen at a fixed point of time in the past. 
+* They are limited by their training data, which was frozen at a fixed point in time in the past. 
 * They generate text that resembles human language, but are not capable of reasoning or cognition. 
 * They have no memory of prior prompts, and no capability to learn or change their behavior.
 
@@ -78,7 +78,7 @@ Here are some example prompts that demonstrate these weaknesses:
 
     When did Queen Elizabeth II die?
 
-In this case the model is limited by training data, which is current only up to June 2021.
+In this case, the model is limited by training data, which is current only up to June 2021.
 
     What is the square root of 98765?
 
@@ -86,7 +86,7 @@ The model will generate an answer to math questions, but there's no guarantee it
 
     Steven is my uncle. Steven has two children, Sam and Lindsay. Sam's sole aunt is called Julie. What is my mother's name?
 
-It's a simple puzzle, but the model has no capability to reason about the relationships between people and will not be able to solve it. (More advanced models like GPT-4 are more likely to get the answer right, but are still not guaranteed to do so.)
+It's a simple puzzle, but the model cannot reason about the relationships between people and will not be able to solve it. (More advanced models like GPT-4 are more likely to get the answer right, but are still not guaranteed to do so.)
 
 In the following section, we'll explore other aspects of completions.
 
@@ -120,33 +120,8 @@ Clear the contents of the prompt box. Enter the following text, then click Gener
 
     Write an obituary for the poet Harold Bloomsbury. Include references.
 
-There has never been a poet (nor indeed any person, according a Web searchs) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any actual facts. Even the requested references, while convincing-looking, are not real.
+There has never been a poet (nor indeed any person, according to web searches) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
 
 ## Next Steps
 
 Now, proceed to [3 Tokens.md](3%20Tokens.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
