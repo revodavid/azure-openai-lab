@@ -14,7 +14,7 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
 
 1. Choose a unique set of characters to make your resource group and domain name unique. You might choose something like `openai-19800101` with your birthday to make it easy to remember. From now on, we'll use `openai-lab-build`, but remember to substitute your selection.
 
-2. Complete the "Basics" tab as follows
+1. Complete the "Basics" tab as follows
 
   * Subscription: leave unchanged
   * Resource Group: Click "create new" and enter `openai-lab-build` 
@@ -22,9 +22,9 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
   * Name: Enter `openai-lab-build`
   * Pricing Tier: Select `Standard S0`
 
-7. Click Next. On the next page "Network", click Next. On the next page "Tags" also click Next. On the final tab "Create Azure OpenAI", click "Create".
+1. Click Next. On the next page "Network", click Next. On the next page "Tags" also click Next. On the final tab "Create Azure OpenAI", click "Create".
 
-8. Deployment may take up to 2 minutes. Once the deployment is complete, proceed to the next step.
+1. Deployment may take up to 5 minutes. Once the deployment is complete, proceed to the next step.
 
 ## While you're waiting for the deployment to complete...
 
@@ -40,7 +40,7 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
 
 Once your Azure OpenAI deployment is complete:
 
-1. From the Azure Portal Home page, click the Resource you just created, `openai-lab-build`.
+1. From the Azure Portal Home page, click the Resource you just created, `openai-lab-build`. (If you don't see your resource, click on "All Resources".)
 
 2. From the Overview tab, click the button "Explore" to launch the Azure OpenAI Studio.
 

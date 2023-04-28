@@ -23,7 +23,9 @@ Once you have completed the Setup step, you can skip ahead to any of the other s
 1. [Completions](2%20Completions.md) [11 minutes]. Understand and experiment with prompts and completions.
 1. [Tokens](3%20Tokens.md) [3 minutes]. Learn about tokens in Azure OpenAI models.
 1. [Applications](4%20Applications.md) [6 minutes]. Learn about applications of natural language generative AI models.
-1. [Conversations]
+1. [Conversations](5%20Conversations.md) [minutes]. Use the Chat playground.
+
+TODO
 
 
 

@@ -114,13 +114,21 @@ The model will probably respond with a friendly greeting. Clear the prompt box a
 
 Is the nickname offered by the model a suitable one for you? Probably not, because the model retains no memory of the prior prompt. (We'll see how to improve this response with prompt engineering, later.)
 
+## Generative AI models can't perform actions
+
+Clear the contents of the prompt box. Enter the following text, then click Generate.
+
+    What are the 5 stocks listed on https://finance.yahoo.com/trending-tickers with the largest market cap?
+
+Although the model will respond with a plausible answer, look closely: those aren't *actually* the 5 largest stocks on the list. Foundational AI models are not capable of performing actions, so they can't actually visit the web page and read the list of stocks. Instead, they generate a plausible response based on the prompt and the training data.
+
 ## Completions are not facts
 
 Clear the contents of the prompt box. Enter the following text, then click Generate.
 
     Write an obituary for the poet Harold Bloomsbury. Include references.
 
-There has never been a poet (nor indeed any person, according to web searches) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
+There has never been a poet (nor indeed any person, according to web search) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
 
 ## Next Steps
 
