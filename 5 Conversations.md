@@ -34,7 +34,7 @@ Now add this response in the User message box:
 
     What about the isotopes?
 
-Click **Send**. The agent will respond with an answer involving deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a more useful answer.
+Click **Send**. The agent will respond with an answer involving isotopes of hydrogen: deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a more useful answer.
 
 Now, click the "Show raw JSON" toggle. This shows the data provided to the `gpt-35-turbo` API call, as a JSON array. Note that includes the entire context of the conversation (annotated by the roles: assistant, and user), along with the system message from the Assistant Setup pane.
 
@@ -66,13 +66,18 @@ The system message also includes factual information, for example: "For 2022, th
 
 Here are some prompts to try to observe the effects of the system prompt and the one-shot example:
 
+```
     What is the deadline for filing taxes?
-
+```
+```
     Are home office expenses deductible?
-
+```
+```
     Where should I invest my money?
-
+```
+```
     You're stupid!
+```
 
 Also, try asking follow-up questions to get the model to clarify or elaborate on its responses.
 

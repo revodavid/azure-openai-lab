@@ -1,6 +1,6 @@
-# Applications
+# Applications of natural language generative AI
 
-Most people are familiar with natural language generative AI from applications like ChatGPT, but you can use these models for much more than chatbots. In this section, we'll explore some other useful applications of natural language generative AI.
+Most people are familiar with natural language generative AI from applications like ChatGPT, but you can use these models for much more than chatbots. In this section, we'll explore some other useful applications of these models.
 
 Return to the Completions playground in the Azure OpenAI Studio. We will use the "Examples" dropdown to populate the prompt box for the different applications. Note that in some cases you may need to increase the Max length (tokens) option to prevent truncated completions.
 
@@ -48,13 +48,18 @@ Click **Generate**. In this example, we provide one example of a headline and a 
 
 Try replacing Headline 2 with other text and regenerating the completion. Does it generate the appropriate category?
 
+```
     Jets lose, again!
-
+```
+```
     Obama announces re-election bid
-
+```
+```
     Microsoft up in after-hours trading
-
-    20nm process offers more power
+```
+```
+    20nm process offers more better density and power value
+```
 
 ## Text summarization
 
@@ -70,7 +75,7 @@ The first example shows how to create a short summary of a larger piece of text:
 
     tl;dr
 
-(for "too long; didn't read"). This prompt works well below the text to be summarized.
+(for "too long; didn't read"). This prompt works well after the text to be summarized.
 
 The second example specifies the data to be extracted from the text: "Customer problem", "Outcome of the conversation", etc. Unlike the structured data example above, in this case we are extracting concepts as opposed to specific data points.
 

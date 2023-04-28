@@ -16,7 +16,7 @@ Bing Create uses the Dall-E image generation model to generate an image from a p
 
 ## Have a conversation with Bing Chat
 
-Note, in addition to a Microsoft account, you must have been granted access to Bing Chat. To join the waitlist, visit [Bing Chat](https://www.bing.com/new) and click "Join the waitlist"
+> NOTE: In addition to a Microsoft account, you must have been granted access to Bing Chat. To join the waitlist, visit [Bing Chat](https://www.bing.com/new) and click "Join the waitlist"
 
 Unlike the conversation-based models such as ChatGPT in Azure OpenAI Service, Bing Chat's responses are not limited by the underlying natural language model alone. Bing Chat uses a variety of techniques to provide "grounding" for its responses, including the results of live Web searches. This means that Bing Chat can use current information, not just information that was included in the model's training data, to inform its responses. 
 
@@ -26,10 +26,9 @@ Let's try some examples to see how this works in practice.
 
 ### Have an ongoing conversation
 
-dkls
+Start with Bing in Balanced mode. Ask any question you like. Ask for followups-too?
 
-
-### Get information about recent and current 
+### Get information about recent events
 
 Bing Chat is based on [OpenAI's GPT-4 model](https://blogs.bing.com/search/march_2023/Confirmed-the-new-Bing-runs-on-OpenAI%E2%80%99s-GPT-4), which was trained on data collected before September 2021. Nonetheless, thanks to the grounding techniques mentioned above, Bing Chat can provide information about recent and current events. 
 
@@ -37,11 +36,17 @@ First, enable "Precise" mode in Bing Chat by clicking the "New Topic" button and
 
 Now, try these prompts, and compare the results to using the models in the Azure OpenAI Service playground:
 
-"When did Queen Elizabeth II die?"
+```
+When did Queen Elizabeth II die?
+```
+```
+How's today's weather in Seattle, WA
+```
+```
+What big news happened today?
+```
 
-"How's today's weather in Seattle, WA"?
-
-
+## Generate an image in Creative mode
 
 
 
