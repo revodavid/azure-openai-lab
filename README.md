@@ -24,8 +24,14 @@ Once you have completed the Setup step, you can skip ahead to any of the other s
 1. [Tokens](3%20Tokens.md) [3 minutes]. Learn about tokens in Azure OpenAI models.
 1. [Applications](4%20Applications.md) [6 minutes]. Learn about applications of natural language generative AI models.
 1. [Conversations](5%20Conversations.md) [minutes]. Use the Chat playground.
+1. [Prompt Engineering](6%20Prompt%20Engineering.md) [minutes]. Learn how to use prompt engineering to customize the behavior of the model.
+1. [Using the API](7%20Using%20the%20API.md) [minutes]. Learn how to use the Azure OpenAI API.
+1. [Learnings and Resources](8%20Learnings%20and%20Resources.md) [minutes]. Recap and links for further learning.
+1. [Extra Credit](9%20Extra%20Credit.md) [minutes]. If you have time, explore the capabilities of Bing Chat.
 
-TODO
+## Feedback
+
+We would love to hear your feedback on this lab. Please use the Discussions tab for comments, or the Issues tab for bugs or suggestions.
 
 
 
