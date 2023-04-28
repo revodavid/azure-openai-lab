@@ -4,7 +4,7 @@ We hope that in the last 45 minutes, you've learned what natural language genera
 
 * Generative AI models can generate humanlike text, images, and code
 * Generative AI models are stateless: they do not learn, and are constrained by their training data which is frozen at a fixed point in time
-* Azure OpenAI Service is a managed service that provides access to state-of-the-art natural language generative AI models, including ChatGPT and GPT-4 from OpenAI
+* Azure OpenAI Service is a managed service that provides access to state-of-the-art natural language generative AI models, including ChatGPT and GPT-4 from OpenAI with the security and enterprise promise of Azure.
 * Azure OpenAI Service provides a simple REST API for accessing these models
 * Prompt engineering is a technique for "grounding" generative AI models, and can be used to influence the style of their output, provide factual information, and constrain their behavior.
 
