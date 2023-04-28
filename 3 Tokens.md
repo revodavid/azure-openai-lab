@@ -28,7 +28,7 @@ The natural language models generate completions one token at a time, but the ge
 
 Then it adds that token to the prompt and repeats the process until the "Max length (tokens)" limit is met for the completion, or until the model generates a special token called a "stop token", which prevents further tokens from being generated. (This [blog post](https://bea.stollnitz.com/blog/how-gpt-works/) by Beatriz Stollnitz explains the process in more detail.)
 
-This is how the model generates completions of one or multiple words, and why those completions can change from invocation to invocation.
+This is how the model generates completions of one or more words, and why those completions can change from invocation to invocation.
 
 ## Observe the token generation process
 

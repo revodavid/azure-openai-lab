@@ -4,7 +4,7 @@ Completed the workshop already? Need something else to do? Here are some other t
 
 ## Generate Images with Bing Create
 
-    NOTE: A Microsoft account is required for this section
+Note, a Microsoft account is required for this section
 
 1. Go to [Bing Create](https://www.bing.com/create) and sign in with your Microsoft account if prompted
 
