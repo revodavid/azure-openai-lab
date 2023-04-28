@@ -30,6 +30,20 @@ Regardless of which API you use, you will need your unique API key to successful
 
 Return to the Completions Playground in the Azure OpenAI Studio.
 
+## TODO
+
+* Generate a completion to "a long and unusual cat name is " from the UI
+* View code, save the curl command to a file
+* Edit the file, provide the key
+* Run the curl command from the Azure shell
+
+### optional
+
+* Python example (tricky to do in the shell because of package dependencies)
+* A more self-contained shell command, with options?
+
+
+
 
 
 
