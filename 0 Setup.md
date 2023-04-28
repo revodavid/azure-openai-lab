@@ -42,7 +42,7 @@ Once your Azure OpenAI deployment is complete:
 
 1. From the Azure Portal Home page, click the Resource you just created, `openai-lab-build`. (If you don't see your resource, click on "All Resources".)
 
-2. From the Overview tab, select `Go to Azure OpenAI Studio`.
+2. From the Overview tab, select `Go to Azure OpenAI Studio` to launch the Azure OpenAI Studio.
 
 3. You will see the message "No deployment detected". Select `Create new deployment`.
 
