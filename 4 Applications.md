@@ -65,7 +65,7 @@ Try replacing Headline 2 with other text and regenerating the completion. Does i
 
 | Deployment | Examples |
 | --- | --- |  
-text-davinci-003 | Summarize and article (abstractive)
+text-davinci-003 | Summarize an article (abstractive)
 text-davinci-003 | Summarize key points from financial report (extractive)
 text-davinci-003 | Summarize issue resolution from a conversation
 

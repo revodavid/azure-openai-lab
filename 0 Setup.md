@@ -17,7 +17,7 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
 1. Complete the "Basics" tab as follows
 
   * Subscription: leave unchanged
-  * Resource Group: Click "create new" and enter `openai-lab-build` 
+  * Resource Group: Click "create new" and enter `rg-openai-lab-build` 
   * Region: Select `South Central US`
   * Name: Enter `openai-lab-build`
   * Pricing Tier: Select `Standard S0`
@@ -44,7 +44,7 @@ Once your Azure OpenAI deployment is complete:
 
 2. From the Overview tab, click the button "Explore" to launch the Azure OpenAI Studio.
 
-3. You will see the message "No deployment detected". Click the "Deployments" link under "Management" in the left navigation.
+3. You will see the message "No deployment detected". Select `Create new deployment`.
 
 4. Click "+ Create New Deployment". Complete the "Deploy Model" form as follows, then click "Create"
 

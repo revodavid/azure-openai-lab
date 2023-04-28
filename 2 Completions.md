@@ -70,7 +70,7 @@ Here is another prompt to try with different Temperature values:
 
     What is a unique and long name for a cat?
 
-Make sure the Temperature parameter is reset to 1 before you continue.
+**Make sure the Temperature parameter is reset to 1 before you continue.**
 
 ## Less-useful prompts
 
