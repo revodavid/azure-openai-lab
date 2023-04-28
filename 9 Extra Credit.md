@@ -4,7 +4,7 @@ Completed the workshop already? Need something else to do? Here are some other t
 
 ## Generate Images with Bing Create
 
-    NOTE: A Microsoft account is required for this section
+Note, a Microsoft account is required for this section
 
 1. Go to [Bing Create](https://www.bing.com/create) and sign in with your Microsoft account if prompted
 
@@ -16,7 +16,7 @@ Bing Create uses the Dall-E image generation model to generate an image from a p
 
 ## Have a conversation with Bing Chat
 
-    NOTE: In addition to a Microsoft account, you must have been granted access to Bing Chat. To join the waitlist, visit [Bing Chat](https://www.bing.com/new) and click "Join the waitlist"
+Note, in addition to a Microsoft account, you must have been granted access to Bing Chat. To join the waitlist, visit [Bing Chat](https://www.bing.com/new) and click "Join the waitlist"
 
 Unlike the conversation-based models such as ChatGPT in Azure OpenAI Service, Bing Chat's responses are not limited by the underlying natural language model alone. Bing Chat uses a variety of techniques to provide "grounding" for its responses, including the results of live Web searches. This means that Bing Chat can use current information, not just information that was included in the model's training data, to inform its responses. 
 

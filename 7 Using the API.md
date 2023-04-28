@@ -1,6 +1,6 @@
 # Using the Azure OpenAI Service API
 
-    NOTE: This section assumes familiarity with developer tools including the Azure Cloud Shell, shell scripts, and environment variables. If you are not familiar with these tools, you may want to skip ahead to the next section.
+Note, this section assumes familiarity with developer tools including the Azure Cloud Shell, shell scripts, and environment variables. If you are not familiar with these tools, you may want to skip ahead to the next section.
 
 The Completions Playground and the Chat Playground in the Azure OpenAI Studio are handy tools for experimenting with the OpenAI natural language models. To add the power of these models to your applications, however, you will use the Azure OpenAI Service API.
 
