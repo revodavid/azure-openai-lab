@@ -3,7 +3,7 @@
 Before you begin this section, navigate to your Azure OpenAI Studio homepage:
 
 1. In the Azure Portal, click on the Azure OpenAI resource `openai-lab-build`
-2. Click the "Explore" button to open the Azure OpenAI Studio
+1. From the Overview tab, select `Go to Azure OpenAI Studio`.
 
 Remember, you chose your own unique name to replace `openai-lab-build` above. During this workshop you will often need to return to the home page of the Azure OpenAI Studio, so refer back to this section if you need a reminder of how to get there.
 

@@ -70,7 +70,7 @@ Here is another prompt to try with different Temperature values:
 
     What is a unique and long name for a cat?
 
-Make sure the Temperature parameter is reset to 1 before you continue.
+**Make sure the Temperature parameter is reset to 1 before you continue.**
 
 ## Less-useful prompts
 
@@ -88,6 +88,12 @@ In this case, the model is limited by training data, which is current only up to
     What is the square root of 98765?
 
 The model will generate an answer to math questions, but there's no guarantee it will be correct. (If it is correct, it's only because the question and answer are represented in the training data.)
+
+But you could ask the model to write Python code to calculate the square root of 98765, and it would probably do a good job. (Try it!).
+
+    Write Python code to calculate the square root of 98765
+
+Next, ask the model to solve a puzzle:
 
     Steven is my uncle. Steven has two children, Sam and Lindsay. Sam's sole aunt is called Julie. What is my mother's name?
 
