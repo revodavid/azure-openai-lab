@@ -120,7 +120,7 @@ Clear the contents of the prompt box. Enter the following text, then click Gener
 
     Write an obituary for the poet Harold Bloomsbury. Include references.
 
-There has never been a poet (nor indeed any person, according a Web searches) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
+There has never been a poet (nor indeed any person, according to web searches) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
 
 ## Next Steps
 

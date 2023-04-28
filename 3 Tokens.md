@@ -16,7 +16,7 @@ How many tokens are in the following words?
 
 As a common word, "apple" requires only one token. "hamburger" requires three: "ham", "bur" and "ger". Unless they are very common, proper names generally require multiple tokens. It's this token representation that allows AI models to generate words that are not in any dictionary, but without having to generate text on a letter-by-letter basis (which could easily result in gibberish).
 
-Tip: OpenAI provides a useful tool for visualizing the tokens in text phrases. Try it out here: [OpenAI Tokenizer](https://platform.openai.com/tokenizer).
+Tip: OpenAI provides a useful tool for visualizing the tokens in text phrases. Try it out the [OpenAI Tokenizer](https://platform.openai.com/tokenizer).
 
 The natural language models generate completions one token at a time, but the generated token is not deterministic. At each step, the model outputs a list of *all* possible tokens with associated weights. The API samples one token from this list, with heavily-weighted tokens more likely to be selected than the others. 
 

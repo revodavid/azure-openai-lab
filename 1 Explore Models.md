@@ -14,7 +14,7 @@ Click on **Deployments** in the "Management" section of the left pane. You have 
 * `text-davinci-003`: an instance of the OpenAI GPT-3.5 model
 * `gpt-35-turbo`: an instance of the OpenAI ChatGPT model 
 
-In this workshop, we will occasionally also mention GPT-4, the latest model from OpenAI, but we will not deploy it.
+In this workshop, we will occasionally mention GPT-4, the latest model from OpenAI, but we will not deploy it.
 
 You can find details about these models and other models available in Azure OpenAI Service at [https://aka.ms/oai/models](https://aka.ms/oai/models). There you will learn that:
 
