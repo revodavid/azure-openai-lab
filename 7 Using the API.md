@@ -33,8 +33,8 @@ Return to the Completions Playground in the Azure OpenAI Studio.
 ### Create a new prompt
 
 1. In the "User Message" box in the right pane, enter the following text: "`A long and unusual name for a cat: `" (including the space after the colon). Do **not** click generate.
-2. Select `View code`, and select `curl` from the dropdown
-3. Copy the curl command to the clipboard, and open the text editor of your choice, and paste the curl command into the editor window.
+2. Select `View code`, and when the **Sample Code** popup appears select `curl` from the dropdown
+3. Use the **Copy** button in the popup to copy the curl command to the clipboard, and open the text editor of your choice, and paste the curl command into the editor window.
 4. Update the curl command with your API key. The command should look something like this:
 
     ```bash

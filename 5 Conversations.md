@@ -11,14 +11,14 @@ In this section, we'll explore conversations using the Chat Playground in Azure 
 Return to the Azure OpenAI Studio, and click **Chat** under **Playground** in the left-hand menu. 
 
 (If you've already tried the Chat Playground, 
-make sure that the **Assistant Setup** dropdown is set to "default", 
+make sure that the **Use a system message template** dropdown is set to "default", 
 and click the **Clear chat** button in the **Chat session** panel to reset the conversation.)
 
 The Chat Playground is a simple interface for interacting with natural language generative AI models in a conversational setting. The interface is divided into two panes. The left pane, "Assistant Setup", is where we can provide context to style and inform the agent's responses. The right pane, "Chat session", is where we can see the conversation as it unfolds.
 
 The far right column, "Parameters", allows you to select the model used and set its control parameters. We will use the `gpt-35-turbo` model here, but GPT-4 models may also be used here if you have access to them.
 
-If you ever need to return to the default settings, select "Default" in the Assistant Setup dropdown. 
+If you ever need to return to the default settings, select "Default" for **Use a system message template** in the Assistant Setup dropdown. 
 
 ## A simple example
 
@@ -34,7 +34,7 @@ Now add this response in the User message box:
 
     What about the isotopes?
 
-Click **Send**. The agent will respond with an answer involving isotopes of hydrogen: deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a more useful answer.
+Click **Send**. The agent will respond with an answer involving isotopes of hydrogen: deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a  useful answer.
 
 Now, click the "Show raw JSON" toggle. This shows the data provided to the `gpt-35-turbo` API call, as a JSON array. Note that includes the entire context of the conversation (annotated by the roles: assistant, and user), along with the system message from the Assistant Setup pane.
 
