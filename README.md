@@ -18,16 +18,23 @@ Visit [0 Setup.md](0%20Setup.md) to get started.
 
 Once you have completed the Setup step, you can skip ahead to any of the other sections:
 
-1. [Setup](0%20Setup.md) [11 minutes]. Create and deploy the Azure OpenAI resource in the Azure Portal
+1. [Setup](0%20Setup.md) [5 minutes]. Create and deploy the Azure OpenAI resource in the Azure Portal
 1. [Explore Models](1%20Explore%20Models.md) [2 minutes]. Understand the natural language models availabe in Azure OpenAI Service.
 1. [Completions](2%20Completions.md) [11 minutes]. Understand and experiment with prompts and completions.
 1. [Tokens](3%20Tokens.md) [3 minutes]. Learn about tokens in Azure OpenAI models.
 1. [Applications](4%20Applications.md) [6 minutes]. Learn about applications of natural language generative AI models.
 1. [Conversations](5%20Conversations.md) [7 minutes]. Use the Chat playground.
-1. [Prompt Engineering](6%20Prompt%20Engineering.md) [3 minutes]. Learn how to use prompt engineering to customize the behavior of the model.
+1. [Prompt Engineering](6%20Prompt%20Engineering.md) [5 minutes]. Learn how to use prompt engineering to customize the behavior of the model.
 1. [Using the API](7%20Using%20the%20API.md) [5 minutes]. Learn how to use the Azure OpenAI API.
-1. [Learnings and Resources](8%20Learnings%20and%20Resources.md) [3 minutes]. Recap and links for further learning.
+1. [Learnings and Resources](8%20Learnings%20and%20Resources.md) [1 minute]. Recap and links for further learning.
 1. [Extra Credit](9%20Extra%20Credit.md) [6 minutes]. If you have time, explore the capabilities of Bing Chat.
+
+## Citations
+
+"Explore the Azure OpenAI Service", David Smith (Microsoft), 2023.
+
+When referening this repository, please use the shortlink: https://aka.ms/aoai-lab 
+
 
 ## Feedback
 
